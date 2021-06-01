@@ -1,0 +1,54 @@
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-item:hover {
+    background-color: crimson;
+}
+
+li {
+    margin: 10px;
+    list-style-type: none;
+
+}
+
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    background-color: ;
+    padding: 50px;
+}
+
+.box {
+    background-color: white;
+    padding: 80px;
+    margin: 20px;
+    text-align: center;
+    border: 1px groove black;
+    color: black;
+}
+
+footer li {
+    text-decoration: none;
+}
+
+
+.box>img {
+    width: 100%;
+}
+
+.box:hover {
+
+    background-color: crimson;
+    opacity: 1;
+    color: white;
+
+
+}
+
+.box>img {
+    width: 100%;
+    height: auto;
+}
